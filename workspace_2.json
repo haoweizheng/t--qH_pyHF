@@ -1,0 +1,81 @@
+{
+    "channels": [
+        {
+            "name": "channel1",
+            "samples": [
+                {
+                    "data": [
+                        22.26
+                    ],
+                    "modifiers": [
+
+                        {
+                            "data": null,
+                            "name": "muFCNC",
+                            "type": "normfactor"
+                        }
+
+                    ],
+                    "name": "signal"
+                },
+                {
+                    "data": [
+                        20.29
+                    ],
+                    "modifiers": [
+
+                        
+                            {
+                                "name": "hesse_err",
+                                "type": "staterror",
+                                "data": [0.25]
+                            }
+
+
+                    ],
+                    "name": "background"
+                }
+            ]
+        }
+       
+    ],
+    "measurements": [
+        {
+            "config": {
+                "parameters": [
+                    {
+                        "auxdata": [
+                            1.0
+                        ],
+                        "bounds": [
+                            [
+                                0.95,
+                                1.05
+                            ]
+                        ],
+                        "fixed": true,
+                        "inits": [
+                            1.0
+                        ],
+                        "name": "lumi",
+                        "sigmas": [
+                            0.017
+                        ]
+                    }
+                ],
+                "poi": "muFCNC"
+            },
+            "name": "meas"
+        }
+    ],
+    
+    "observations": [
+        {
+            "data": [
+                31
+            ],
+            "name": "channel1"
+        }
+    ],
+    "version": "1.0.0"
+}
